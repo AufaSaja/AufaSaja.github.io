@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f3f4f5;
+}
+
+#Journey {
+  background-color: #f3f4f5;
+}
+
+#bijix {
+  background-color: #0c0629;
+}
+
+#bijix::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('path/to/your/svg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#bijix li:last-child {
+  margin-bottom: -10px; /* Atur nilai sesuai kebutuhan */
+}
+
+#aboutme {
+  background-color: #0c0629;
+}
+
+#quandale {
+  background-color: #f3f4f5;
+}
+
+.navbar-nav .na v-link {
+  color: rgb(0, 0, 0);
+}
+
+.contact-icons a + a {
+  margin-left: 200px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media query untuk tampilan desktop */
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
